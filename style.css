@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    min-width:80% ;    
+    background-image: linear-gradient(#ffedf2, white);
+}
+
+main{
+    display: flex;
+    flex-direction: column;   
+    height: 100%;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 300px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 25px;
+    
+}
+
+ul{
+   margin: 0 auto;
+   margin-top: 50px;
+   max-width: 250px;
+   list-style: none;
+   color: #d82676;
+   font-weight: bold;
+   font-family: Ubuntu;
+}
+
+ul li::before{
+    content: "";
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+    
+}
+
+.wpp{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: rgb(226, 43, 186);
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    
+    
+}
+
+.wpp:active{
+    background-color: rgb(95, 33, 82); 
+    
+}
+.wpp:hover{
+    background-color: rgb(95, 33, 82);
+}
+footer{
+    margin-top: 60px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    justify-self:flex-end ;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+.copy {
+    color: white;
+}
